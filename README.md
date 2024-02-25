@@ -33,8 +33,8 @@ TF-IDF combines TF and IDF to calculate the importance of a term in a specific d
 \[ \text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t) \]
 
 Where:
-- \( t \) represents a term (word).
-- \( d \) represents a document.
+- \( t ) represents a term (word).
+- \( d ) represents a document.
 - \( \text{TF-IDF}(t, d) \) is the TF-IDF score of term \( t \) in document \( d \).
 
 TF-IDF assigns higher weights to terms that are frequent in a document but rare in the corpus, indicating their importance in characterizing the content of that document.
@@ -54,7 +54,7 @@ Logistic Regression is a supervised learning algorithm used for binary classific
 ### Model Representation
 In logistic regression, the relationship between the input features \( \mathbf{x} \) and the binary target variable \( y \) is modeled using the logistic function (also known as the sigmoid function). The logistic function maps the linear combination of input features to a probability score between 0 and 1, representing the likelihood of belonging to the positive class (e.g., class 1). The logistic function is defined as follows:
 
-\ P(y = 1 | x) = \1/(1 + e^(-w^T.x + b) \
+ P(y = 1 | x) = \1/(1 + e^(-w^T.x + b) 
 
 Where:
 - \( P(y = 1 |x) is the probability of belonging to the positive class given input features \( \mathbf{x} \).
