@@ -7,19 +7,19 @@ This repository contains code for sentiment analysis using the TF-IDF feature ex
 ## Term Frequency (TF)
 Term Frequency (TF) measures the frequency of a term (word) within a document. It indicates how often a particular word occurs in a document relative to the total number of words in that document. TF is calculated using the following formula:
 
-\[ \text{TF}(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d} \]
+TF(t, d) = Number of times term t appears in document d/Total number of terms in document
 
 Where:
-- \( t \) represents a term (word).
-- \( d \) represents a document.
-- \( \text{TF}(t, d) \) is the Term Frequency of term \( t \) in document \( d \).
+- \( t) represents a term (word).
+- \( d ) represents a document.
+- \( TF(t, d)) is the Term Frequency of term (t) in document(d).
 
 TF assigns higher weights to terms that occur more frequently within a document.
 
 ## Inverse Document Frequency (IDF)
 Inverse Document Frequency (IDF) measures the rarity of a term across the entire corpus of documents. It indicates how important a term is by considering how many documents contain that term. IDF is calculated using the following formula:
 
-\[ \text{IDF}(t) = \log\left(\frac{\text{Total number of documents in the corpus}}{\text{Number of documents containing term } t + 1}\right) \]
+\IDF(t) = log(Total number of documents in the corpus)/(Number of documents containing term t + 1)
 
 Where:
 - \( t \) represents a term (word).
